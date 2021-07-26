@@ -1,0 +1,6 @@
+<div id="tesseract_virtual_panel" style="display: flex; flex-direction: column;" class="h-100 w-100">
+    <div>
+        <b-button @click="refresh"><i class="fa fa-sync"></i> Refresh</b-button>
+    </div>
+    <iframe id="tesseract_viewer_iframe" @load="iframe_load" style="flex: 1; width: 100%"></iframe>
+</div>
